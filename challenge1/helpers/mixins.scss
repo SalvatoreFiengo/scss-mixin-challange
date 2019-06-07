@@ -1,0 +1,6 @@
+@mixin boxify($size, $background-color){
+    
+    width: $size;
+    height: $size / 2;
+    background-color: $background-color;
+}

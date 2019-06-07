@@ -1,0 +1,7 @@
+@import "challange1/helpers/variables.scss";
+@import "challange1/helpers/mixins.scss"; 
+
+.box {
+    @include boxify($box-height, $box-background-color)
+}
+
